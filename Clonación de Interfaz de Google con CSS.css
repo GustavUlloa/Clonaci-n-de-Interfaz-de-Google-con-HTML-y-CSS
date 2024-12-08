@@ -1,0 +1,149 @@
+body{
+   font-family: Arial,sans-serif;
+   background-color: rgb(255, 255, 255)
+}
+
+.grid-container{
+   display: grid;
+   grid-template-areas: "item-a .  . .  . . . . . . .  . . . item-b item-b2 item-c";
+      grid-gap: 2px;
+   }
+
+.grid-item{
+      padding: 10px;
+   margin: 2px;
+}
+
+.item-a{
+   grid-area: item-a;
+   padding-top: 30px;
+}
+
+.item-b{
+   grid-area: item-b;
+   padding-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+  }
+
+.item-b2{
+   grid-area: item-b2;
+   padding-top: 40px;
+   display: flex;
+  justify-content: flex-end;
+   }
+
+.item-b:hover{
+   text-decoration-line: underline;
+}
+
+.item-b2:hover{
+   text-decoration-line: underline;
+}
+
+.item-c{
+   grid-area: item-c;
+   
+}
+
+
+.grid-container-center{
+   display: grid;
+   grid-template-areas:". . item-d ."
+   ". . item-e .";
+}
+
+.item-d{
+   grid-area: item-d;
+}
+
+.item-e{
+   grid-area: item-e;
+   display: flex;
+   justify-content: flex-start;
+   padding-left: 170px;
+   }
+
+   .grid-container-3{
+      display: grid;
+      grid-template-areas: ". item-f . item-g";
+      padding-top: 40px;
+      padding-left: 400px;
+      gap: 50px;
+      padding-bottom: 50px;
+        }
+
+   .item-f{
+      grid-area: item-f;
+   }
+
+   
+
+   .item-g{
+      grid-area: item-g;
+   }
+
+   .button-a:hover{
+background-color: rgb(15, 130, 206);
+      }
+
+.style:hover{
+   text-decoration-line: underline;
+}
+
+
+.grid-container-4{
+   display: grid;
+   grid-template-areas:"item-mexico";
+   padding-top: 10px;    
+   padding-left: 30px;
+   padding-bottom: 10px;
+   border-top: solid lightgray 1px;
+ }
+
+.item-mexico{
+   grid-area: item-mexico;
+}
+
+footer{
+   background-color: rgb(242, 242, 242)
+}
+
+
+.grid-container-5{
+   display: grid;
+   grid-template-areas:"item-i item-j item-k item-l . . item-m item-n";
+   padding-top: 30px;     
+      padding-left: 80px;
+      border-top: solid lightgray 1px;
+      padding-bottom: 20px;
+}
+
+.item-i{
+   grid-area:item-i;
+}
+
+.item-j{
+   grid-area: item-j;
+   }
+
+   .item-k{
+      grid-area: item-k;
+      }
+
+      .item-l{
+         grid-area: item-l;
+         }
+
+         .item-m{
+            grid-area: item-m;
+            }
+
+            .item-n{
+               grid-area: item-n;
+               }
+
+
+
+
+              
